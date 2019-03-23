@@ -2,6 +2,7 @@
 基于JavaMail的邮件发送器工具类
 
 ## 使用方法
+`
   // 配置邮件发送信息
   SenderConfig sender = new SenderConfig();
   sender.setNickname("架构与我");
@@ -31,3 +32,4 @@
   // 测试发送邮件
   // 改成自己的接收邮件地址
   MailHelper.send(sender, "xxx@qq.com", "来自架构与我的邮件", builder.toString(), data);
+`
